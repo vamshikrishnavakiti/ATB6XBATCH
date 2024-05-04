@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class lab122_FiZZBuZZ {
 
 	public static void main(String args[]) {
-//FizzBuzz Problem.
+		//FizzBuzz Problem.
 		// Write a program that prints numbers from 1 to 100.
 		// For multiples of 3, Print "Fizz" instead of the number.
 		//and for the multiples of 5, print "Buzz".
@@ -22,8 +22,8 @@ public class lab122_FiZZBuZZ {
 			}
 			else {
 				System.out.println(i);
-				}
-					
+			}
+
 		}
 	}
 
