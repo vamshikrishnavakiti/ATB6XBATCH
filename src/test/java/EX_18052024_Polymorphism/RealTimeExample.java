@@ -14,6 +14,9 @@ class BaseClass{
 	void openBrowser() {
 		System.out.println("Open Browsers"+this. browser);
 	}
+
+	
+
 	void openBrowser(String browsername) {
 		System.out.println("Open browser here:");
 	}
