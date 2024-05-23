@@ -22,6 +22,9 @@ public class ATBXStudentds {
       int fee() {
     	  return 10000;
       }
+      void pamentmode(String online, String offline) {
+    	  
+      }
       
 }
 	
