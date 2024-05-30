@@ -1,9 +1,9 @@
 package EX_25052024_Collections;
 
-public class HttpStatus {
+public class HttpStatusDemo {
     public static void main(String[] args) {
-        HTTPStatus status =HTTPStatus.OK;
-        System.out.println(status.getCode()+"__"+status.getMessage());
+        HTTPStatus status =HTTPStatus.Created;
+        System.out.println("Response code: "+status.getCode()+" -- Status: "+status.getMessage());
 
 
     }
@@ -40,3 +40,5 @@ enum HTTPStatus{
         this.message = message;
     }
 }
+
+
